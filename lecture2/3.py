@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+# Constant ops: https://www.tensorflow.org/api_guides/python/constant_op
 # constant of 1d tensor (vector)
 a = tf.constant([2, 2], name="vector")
 
